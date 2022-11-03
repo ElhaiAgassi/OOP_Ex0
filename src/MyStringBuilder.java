@@ -60,7 +60,7 @@ public class MyStringBuilder {
         return the_string.insert(offset, str);
     }
 
-    /*
+    /**
         Replaces the characters in a substring of this sequence with characters in
         the specified String. The substring begins at the specified start and
         extends to the character at index end - 1 or to the end of the sequence if
