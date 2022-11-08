@@ -16,16 +16,6 @@ public class UndoableStringBuilder {
     public String toString(){ return this.the_string.toString();}
 
     /**
-     * Returns an Image object that can then be painted on the screen.
-     * The url argument must specify an absolute. The name
-     * argument is a specifier that is relative to the url argument.
-     * <p>
-     * Causes this character sequence to be replaced by the reverse of the sequence.
-     * This method always returns immediately, whether the
-     * image exists. When this applet attempts to draw the image on
-     * the screen, the data will be loaded. The graphics primitives
-     * that draw the image will incrementally paint on the screen.
-     * <p> </p>
      * appends the specified string to this character sequence
      *
      * @param str an absolute URL giving the base location of the image
